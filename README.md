@@ -7,8 +7,10 @@
  * Register on [Twilio.com](https://www.twilio.com/), purchase a number, and add funds to your account.
  <br/>
  <br/>
+ 
  * Add your SID and Token to the configuration file.
- <br/>
+
+
  ```INI
 [CREDS]
 SID = Your SID
