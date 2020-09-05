@@ -8,7 +8,7 @@
  <br/>
  <br/>
  * Add your SID and Token to the configuration file.
- 
+ <br/>
  ```INI
 [CREDS]
 SID = Your SID
