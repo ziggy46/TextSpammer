@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Text Spammer!</title>
+  <link rel="icon" type="image/x-icon" href="/favico.ico">
+</head>
+
+<style>
+  textarea {
+  width: 30%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: both;
+  }
+</style>
+<body>
+<br>
+  <form onsubmit="myalert()"  method="POST">
+    <h3>Phone Number:</h3>
+    <input name="phonenumber" placeholder="Enter phone number!" type="text" pattern="\d*" required="required" minlength="10" maxlength="10"> <br>
+    <br>
+    <h3>Message:</h3>
+    <textarea name="message" type="text" width="48" height="48" required="required" maxlength="1000" placeholder="Enter your message here!"></textarea>
+    <br>
+    <input name="times" placeholder="Qty." type="number" required="required" max="100">
+    <br>
+    <br>
+    <input value="Submit" type="submit"><br>
+  </form>
+    <script>
+        function myalert() {
+            alert("Message(s) sent successfully!");
+        }
+    </script>
+</body>
+</html>
